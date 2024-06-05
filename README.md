@@ -13,7 +13,9 @@ The project is structured as follows:
 
 ## Key Insights
 **Model Calibration**: Initially, the models exhibited poor calibration. Through calibration techniques, the prediction reliability significantly improved.
+
 **Calibration Techniques**: Both ***PLATT*** scaling and ***SPLINE*** calibration were tested. PLATT scaling proved to be the most effective for both models.
+
 **Performance**: After calibration, both models showed substantial improvements in accuracy on validation data.
 
 ## Model Performance
@@ -26,7 +28,7 @@ The project is structured as follows:
 - Accuracy on Validation Data: 100%
 
 ## Inconsistencies and Calibration
-During the project, it was observed that the initial predictions were inconsistent, leading to unreliable sentiment analysis. The calibration of models was crucial in resolving these issues. PLAT scaling was particularly effective in enhancing the reliability and accuracy of both the Random Forest and Passive-Aggressive classifiers.
+During the project, it was observed that the initial predictions were inconsistent, leading to unreliable sentiment analysis. The calibration of models was crucial in resolving these issues. PLATT scaling was particularly effective in enhancing the reliability and accuracy of both the Random Forest and Passive-Aggressive classifiers.
 
 ## Conclusion
 This project demonstrates the significance of model calibration in sentiment analysis. By focusing on the inconsistencies and employing effective calibration techniques, we achieved high accuracy levels, especially on validation data. The Random Forest classifier and Passive-Aggressive classifier both benefited from PLAT scaling, showcasing the potential of calibration in improving model performance.
