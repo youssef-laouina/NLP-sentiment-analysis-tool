@@ -1,5 +1,5 @@
 # **Sentiment Analysis on Amazon Fine Food Reviews**
-![App Screenshot](screenshot.png)
+![Screenshot](screenshot.png)
 
 ## Overview
 This project focuses on sentiment analysis using Amazon Fine Food reviews. The main objective is to build a robust model capable of accurately predicting the sentiment of reviews. Two models were developed: a **RandomForestClassifier** and a **PassiveAggressiveClassifier**. Throughout the project, special attention was given to the inconsistencies in the predictions and the importance of **model calibration** to enhance performance.
